@@ -1,0 +1,12 @@
+<div class="home-tracking">
+    <span>Acompanhe seu projeto:</span>
+    <form class="form-tracking" (ngSubmit)="trackProject()">
+        <mat-form-field>
+            <input matInput [(ngModel)]="trackingCode" placeholder="Ex.: A123Z999" name="code-field" required>
+        </mat-form-field>
+        <button type="submit" [disabled]="isInvalidCode">
+            <mat-icon>search</mat-icon>
+            <span>Pesquisar</span>
+        </button>
+    </form>
+</div>

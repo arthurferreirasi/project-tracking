@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+/*@import "@angular/material/prebuilt-themes/azure-blue.css";
+/* @import "@angular/material/prebuilt-themes/rose-red.css"; */
+:root {
+    --color-main-bg: #f4f4f6;    
+    --color-main-red: #d33c43;
+    --color-main-gray: #404041;
+    --color-main-black: #000;
+    --color-main-white: #fff;
+    --color-main-blue: #005cbb;
+}
