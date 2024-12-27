@@ -3,7 +3,8 @@
     <form class="form-tracking" (ngSubmit)="trackProject()">
         <h3>Acompanhe seu projeto:</h3>
         <mat-form-field>
-            <input matInput [(ngModel)]="trackingCode" placeholder="Ex.: A123Z999" name="code-field" required>
+            <input matInput [(ngModel)]="trackingCode" (input)="checkCode()" placeholder="Ex.: A123Z999" name="code-field" required>
+            <mat-error>Digite o código do projeto.</mat-error>
         </mat-form-field>
         <button mat-flat-button type="submit" [disabled]="isInvalidCode">
             <mat-icon>search</mat-icon>

@@ -5,11 +5,11 @@ import { FormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 
-
 @Component({
   selector: 'app-home-tracking',
   standalone: true,
-  imports: [MatIconModule, 
+  imports: [
+    MatIconModule,
     MatFormFieldModule,
     MatButtonModule,
     FormsModule,
@@ -18,13 +18,14 @@ import { MatInputModule } from '@angular/material/input';
   templateUrl: './home-tracking.component.html',
   styleUrl: './home-tracking.component.css'
 })
+
 export class HomeTrackingComponent {
 
   trackingCode: string = '';
   isInvalidCode!: boolean;
 
   ngOnInit() {
-    this.isInvalidCode = false;
+    this.isInvalidCode = true;
   }
 
   checkCode() {
@@ -33,6 +34,7 @@ export class HomeTrackingComponent {
   }
 
   public trackProject() {
-
+    
   }
+
 }
