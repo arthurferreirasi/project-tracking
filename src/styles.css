@@ -1,7 +1,8 @@
-/*@import "@angular/material/prebuilt-themes/azure-blue.css";
+/* @import "@angular/material/prebuilt-themes/azure-blue.css";
 /* @import "@angular/material/prebuilt-themes/rose-red.css"; */
 :root {
-    --color-main-bg: #f4f4f6;    
+    --color-main-bg: #f4f4f6;   
+    --color-main-orange: #ff8400; 
     --color-main-red: #d33c43;
     --color-main-gray: #404041;
     --color-main-black: #000;

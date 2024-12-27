@@ -1,0 +1,42 @@
+.home-tracking {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.form-tracking {
+    margin-top: 2rem;
+    background-color: var(--color-main-bg);
+    width: 35vw;
+    border-radius: 0.625rem;
+    border-left: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 1rem auto;
+}
+
+.form-tracking h3 {
+    flex-direction: row;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--color-main-gray)
+}
+
+.form-tracking {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-tracking button {
+    width: 50%;
+    height: 2.5rem;
+    display: flex; 
+    align-items: center; 
+    gap: 10px;
+    margin: auto;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: medium;
+    background-color: var(--color-main-orange);
+}

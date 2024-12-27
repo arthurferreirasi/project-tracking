@@ -23,7 +23,7 @@ a {
 }
 .top-nav-title a {
     font-size: 2rem;
-    color: var(--color-main-red);
+    color: var(--color-main-orange);
     text-decoration: none;
     font-weight: bold;
     padding-left: 2rem;
